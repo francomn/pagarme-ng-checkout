@@ -77,6 +77,21 @@ var params = {"customerData":false, "amount":"100000", "createToken": "false"};
 $pgCheckout.open(params);
 ```
 
+## Retrieving `card_hash` or transaction `token`
+
+You can access all variables that you would be able to get trough post vars on your backend trough success callback parameter.
+
+```javascript
+var params = {"customerData":false, "amount":"100", "createToken": "true"};
+$pgCheckout.open(params, callback);
+
+function callback(data){
+
+   var token = data.token;
+
+}
+```
+
 And that's it! :D
 
 [Rafael Violato](http://rviolato.com) @ [pagar.me](http://pagar.me)
