@@ -1,6 +1,6 @@
-'use strict';
 (function(window){
-
+	'use strict';
+	
 	angular.module('pg-ng-checkout', [])
 	.provider('$pgCheckout', PgCheckout);
 
