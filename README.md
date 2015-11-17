@@ -64,7 +64,7 @@ var params = {"amount":"100000"};
 $pgCheckout.open(params, function(){
 
   //purchase done code here
-  alert('The purchase is done! :D);
+  alert('The purchase is done! :D');
 
 });
 ```
