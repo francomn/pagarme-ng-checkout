@@ -95,3 +95,10 @@ function callback(data){
 And that's it! :D
 
 [Rafael Violato](http://rviolato.com) @ [pagar.me](http://pagar.me)
+
+## Support
+If you have any problem or suggestion please open an issue [here](https://github.com/pagarme/pagarme-ng-checkout/issues).
+
+## License
+
+Check [here](LICENSE).
