@@ -8,15 +8,14 @@
 
 		var _encryptKey;
 
-		return{
+		/* jshint validthis:true */
+		this.setEncryptKey = setEncryptKey; // config methods
 
-			//config methods
-			setEncryptKey: setEncryptKey,
+		/* jshint validthis:true */
+		this.$get = CheckoutProvider; // injectable service
 
-			//injectable service
-			$get: $get,
-
-		}
+	    
+	    /////////////
 
 		function setEncryptKey(key){
 
@@ -24,7 +23,11 @@
 			
 		}
 
-		function $get($q, $interval){
+		
+		CheckoutProvider.$inject = ['$q', '$interval'];
+
+		/* @ngInject */
+		function CheckoutProvider($q, $interval) {
 
 			var checkout;
 			var get = {
