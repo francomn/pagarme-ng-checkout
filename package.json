@@ -1,6 +1,6 @@
 {
   "name": "pagarme-ng-checkout",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Angular service to provide checkout functionality to your Angularjs application.",
   "main": "gulpfile.js",
   "scripts": {
