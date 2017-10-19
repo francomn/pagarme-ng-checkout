@@ -7,7 +7,7 @@
 
 	function config($pgCheckoutProvider){
 
-		$pgCheckoutProvider.setEncryptKey('ek_test_mSVAcBZidrQieIX53fWPlLfchMMk6A');
+		$pgCheckoutProvider.setEncryptKey('ek_test_X26XJtkrVowzrmv3ltFipJorE5aH7h');
 		
 	}
 
